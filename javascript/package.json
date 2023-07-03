@@ -1,0 +1,13 @@
+{
+  "name": "unleash-live-api-test",
+  "type": "module",
+  "dependencies": {
+    "amazon-cognito-identity-js": "6.1.2",
+    "aws-sdk": "2.1336.0",
+    "graphql-request": "5.2.0",
+    "jwt-decode": "3.1.2"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}
