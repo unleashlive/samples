@@ -1,7 +1,7 @@
 export let API_URL = "api.unleashlive.com";
 export let FLIGHTS_CDN = "https://flights.unleashlive.com"; 
 export let GRAPHQL_ENDPOINT =
-  "https://mediadrive-api.unleashlive.com";
+  "https://mediadrive-api.unleashlive.com/graphql";
 
 export let UPLOAD_BUCKET_NAME = "library-upload-syd-cloud";
 export let ACCOUNT_ID = "590171865298";
