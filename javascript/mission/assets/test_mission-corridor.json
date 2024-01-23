@@ -1,0 +1,51 @@
+{
+  "desc": "Mission corridor",
+  "name": "test mission 2",
+  "speed": 5,
+  "route": [
+      {
+      "pole": "RegularPoint",
+      "wo": "00800521566",
+      "lat": 52.253057,
+      "lng": 21.067224,
+      "altitude": 39.99,
+      "altEGM": 20.74,
+      "heading": 168,
+      "pitch": -50,
+      "speed": 2,
+      "si": "waypoint",
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    },
+    {
+      "pole": "RegularPoint",
+      "wo": "00800521567",
+      "lat": 52.253257,
+      "lng": 21.067424,
+      "altitude": 41.1,
+      "altEGM": 41.1,
+      "si": "dist-1"
+    },
+    {
+      "pole": "Pole2",
+      "wo": "00800521567",
+      "lat": 52.253258,
+      "lng": 21.068002,
+      "altitude": 44.1,
+      "altEGM": 44.1,
+      "si": "dist-2"
+    },
+    {
+      "pole": "Pole3",
+      "wo": "00800521568",
+      "lat": 52.253311,
+      "lng": 21.068288,
+      "altitude": 38,
+      "altEGM": 38,
+      "si": "dist-3"
+    }
+  ]
+}

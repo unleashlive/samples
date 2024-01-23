@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="download flight log" type="NodeJSConfigurationType" folderName="Flight logs" path-to-js-file="flights/examples/download.js" working-dir="$PROJECT_DIR$/javascript/">
+    <method v="2" />
+  </configuration>
+</component>

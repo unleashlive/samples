@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="update task" type="NodeJSConfigurationType" folderName="Task user" path-to-node="$USER_HOME$/.nvm/versions/node/v16.19.1/bin/node" path-to-js-file="user-task/examples/update-task.js" working-dir="$PROJECT_DIR$/javascript/">
+    <method v="2" />
+  </configuration>
+</component>
