@@ -1,0 +1,36 @@
+name: Deploy public samples
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync git
+
+      - name: Verify dependencies
+        run: |
+          git --version
+          rsync --version
+
+      - name: Set git global configuration
+        run: |
+          git config --global user.email "unelashbot@unleashlive.com"
+          git config --global user.name "Unleashlive team"
+
+      - name: Run script
+        run: bash publish.sh
