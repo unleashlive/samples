@@ -55,7 +55,7 @@ cd 'javascript/user-task/examples/'
 node create-job.js
 ```
 A successful request will return the response from the 'sendPost' function similar to the following:
-```json
+```bash
 Response {
 id: '1706140637115-XXXXXXXXXXXXXXXXXXXXXXXXX',
 createdAt: 1706140637115,
@@ -88,7 +88,7 @@ cd 'javascript/user-task/examples/'
 node create-task.js
 ```
 A successful request will return the response from the 'sendPost' function similar to the following:
-```json
+```bash
 Response: {
   id: '1706142970284-XXXXXXXXXXXXXXXXXXXXXXXXX',
   createdAt: 1706142970284,
@@ -130,7 +130,7 @@ cd 'javascript/user-task/examples/'
 node create-task-mission.js
 ```
 A successful request will return the response from the 'sendPost' function similar to the following:
-```json
+```bash
 Response: {
 id: '1706142970284-XXXXXXXXXXXXXXXXXXXXXXXXX',
 createdAt: 1706142970284,
@@ -200,7 +200,7 @@ cd 'javascript/user-task/examples/'
 node list-assigned-jobs.js
 ```
 A successful request will return the response from the 'sendPost' function similar to the following:
-```json
+```bash
 [
   {
     companyId: '771bc49c-XXXXX',
