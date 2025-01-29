@@ -1,0 +1,26 @@
+import {
+  API_HOSTNAME,
+  FLIGHTS_CDN,
+  IDENTITY_POOL_ID,
+  MEDIA_DRIVE_API,
+  MEDIA_DRIVE_BUCKET,
+  MEDIA_DRIVE_CDN,
+  POOL_DATA,
+  REGION
+} from "./env.js";
+import {PASSWORD, USER_NAME} from "./user.js";
+import {FOLDER_ID} from "./media-config.js";
+
+export {
+  USER_NAME,
+  PASSWORD,
+  API_HOSTNAME,
+  MEDIA_DRIVE_API,
+  MEDIA_DRIVE_BUCKET,
+  FOLDER_ID,
+  IDENTITY_POOL_ID,
+  POOL_DATA,
+  MEDIA_DRIVE_CDN,
+  REGION,
+  FLIGHTS_CDN
+};

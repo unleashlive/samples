@@ -1,0 +1,72 @@
+{
+  "desc": "Sample-mission",
+  "name": "Lamp inspection",
+  "speed": 2,
+  "route": [
+    {
+      "pole": "Lamp 1",
+      "wo": "1",
+      "lat": -33.863841,
+      "lng": 151.200829,
+      "altitude": 10.0,
+      "altEGM": 20.0,
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    },
+    {
+      "pole": "Lamp 2",
+      "wo": "2",
+      "lat": -33.863716,
+      "lng": 151.201076,
+      "altitude": 10.0,
+      "altEGM": 20.0,
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    },
+    {
+      "pole": "Lamp 3",
+      "wo": "3",
+      "lat": -33.863622,
+      "lng": 151.201148,
+      "altitude": 10.0,
+      "altEGM": 20.0,
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    },
+    {
+      "pole": "Lamp 4",
+      "wo": "4",
+      "lat": -33.863521,
+      "lng": 151.201190,
+      "altitude": 10.0,
+      "altEGM": 20.0,
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    },
+    {
+      "pole": "Lamp 5",
+      "wo": "5",
+      "lat": -33.863309,
+      "lng": 151.201169,
+      "altitude": 10.0,
+      "altEGM": 20.0,
+      "actions": [
+        {
+          "action": "TAKE_PHOTO"
+        }
+      ]
+    }
+  ]
+}
