@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="move media drive" type="NodeJSConfigurationType" folderName="Media drive" path-to-js-file="media-drive/examples/move.js" working-dir="$PROJECT_DIR$/javascript/">
+    <method v="2" />
+  </configuration>
+</component>
